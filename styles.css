@@ -392,8 +392,22 @@ nav li a:hover{
             width: 100%;
         }
     }
+@media screen and (max-width: 850px){
+    .about-list{
+        display: grid;
+    }
+    .blog-list{
+        display: grid;
+    }
+}
 @media(max-width: 400px){
     .side-bar{
         width: 100%;
+    }
+    .about-list{
+        display: block;
+    }
+    .blog-list{
+        display: block;
     }
 }
