@@ -272,7 +272,7 @@ nav li a:hover{
 .down a:hover{
     color: var(--lime-green);
 }
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 850px){
     .margintp{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -316,13 +316,16 @@ nav li a:hover{
         height: 350px;
         margin: auto;
         letter-spacing: 2px;
+        margin-bottom: 10px;
     }
     #blog{
         background-color: rgba(248, 246, 246, 0.121);
         letter-spacing: 1.5px;
+        margin: 0px;
     }
     #about{
         letter-spacing: 1.5px;
+        margin: 0px;
     }
     #blog h1, #blog h3, #blog h5{
         text-align: left;
