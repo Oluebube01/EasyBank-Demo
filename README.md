@@ -33,9 +33,8 @@ Users should be able to:
 
 ### What I learned
 
-I learnt alot from this project, I learnt how to make a hamburger menu, i learnt how to change the color of an image throug svg, i learnt how to overlag elements using z-index.
+I learnt alot from this project, I learnt how to make a hamburger menu, i learnt how to change the color of an image through svg, i learnt how to overlay elements using z-index.
 
-To see how you can add code snippets, see below:
 
 ### Continued development
 
