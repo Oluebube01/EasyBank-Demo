@@ -121,6 +121,7 @@ nav li a:hover{
     z-index: 999;
     background: transparent;
     backdrop-filter: blur(10px);
+    color: white;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.326);
     display: none;
     flex-direction: column;
@@ -140,6 +141,7 @@ nav li a:hover{
 }
 .ham{
     text-align: right;
+    background: transparent;
 }
 .side-bar li{
     width: 100%;
