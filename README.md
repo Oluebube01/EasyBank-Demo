@@ -18,7 +18,7 @@ Users should be able to:
 
 
 ### Links
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://easy-bank-demo.vercel.app/))
+- Live Site URL: ((https://easy-bank-demo.vercel.app/))
 
 ## My process
 
