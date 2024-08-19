@@ -78,6 +78,7 @@ h3{
 
 /* header styling */
 .header{
+    position: fixed;
     background: var(--white);
     padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
@@ -118,7 +119,7 @@ nav li a:hover{
     height: 350px;
     width: 300px;
     z-index: 999;
-    background: var(--white);
+    background: transparent;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.326);
     display: none;
@@ -367,6 +368,9 @@ nav li a:hover{
     }
     .footer-btn{
         margin-left: 0px;
+    }
+    .footer h1{
+        font-size: 0.6rem;
     }
     /* menu bar styling */
 
