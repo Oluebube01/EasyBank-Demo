@@ -111,6 +111,7 @@ nav li a{
 }
 nav li a:hover{
     color: var(--dark-blue);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.735);
 }
 .side-bar{
     position: absolute;
