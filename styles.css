@@ -82,8 +82,7 @@ h3{
     padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100vw;
-    z-index: 2;
-    top: 10;
+    position: sticky;
 }
 .header-div{
     grid-column: 1 / 5;
@@ -110,7 +109,7 @@ nav li a{
     text-decoration: none ;
     color: var(--grey);
 }
-nav li a:hover{
+.desktopLi:hover{
     color: var(--dark-blue);
     border-bottom: 2px solid rgba(0, 0, 0, 0.735);
 }
@@ -123,7 +122,6 @@ nav li a:hover{
     z-index: 999;
     background: transparent;
     backdrop-filter: blur(10px);
-    color: white;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.326);
     display: none;
     flex-direction: column;
@@ -143,7 +141,6 @@ nav li a:hover{
 }
 .ham{
     text-align: right;
-    background: transparent;
 }
 .side-bar li{
     width: 100%;
@@ -161,10 +158,8 @@ nav li a:hover{
 /* hero section styling */
 .hero-section{
     height: 400px;
+    /* overflow: hidden; */
 }
-.hero-main{
-    overflow-x: hidden;
-    margin-top: 50px;
 .details{
     grid-column:  1 / 8;
     margin-right: 20px;
@@ -183,7 +178,7 @@ nav li a:hover{
     display: none;
 }
 #phone{
-    z-index: -1;
+    z-index: 3;
 }
 
 /* about section styling */
@@ -280,9 +275,6 @@ nav li a:hover{
     color: var(--lime-green);
 }
 @media screen and (max-width: 1050px){
-    .header{
-        width: 100vw;
-    }
     .margintp{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -322,22 +314,17 @@ nav li a:hover{
         padding: 0;
     }
     #home{
-        width: 100vw;
+        width: 350px;
         height: 350px;
         margin: auto;
         letter-spacing: 2px;
-        margin-bottom: 10px;
     }
     #blog{
         background-color: rgba(248, 246, 246, 0.121);
         letter-spacing: 1.5px;
-        margin: 0px;
-        width: 100vw;
     }
     #about{
         letter-spacing: 1.5px;
-        margin: 0px;
-        width: 100vw;
     }
     #blog h1, #blog h3, #blog h5{
         text-align: left;
@@ -367,16 +354,12 @@ nav li a:hover{
         display: block;
         align-items: center;
         text-align: center;
-        width: 100vw;
     }
     .footer-img{
         margin-right: 60px;
     }
     .footer-btn{
         margin-left: 0px;
-    }
-    .footer h1{
-        font-size: 0.6rem;
     }
     /* menu bar styling */
 
