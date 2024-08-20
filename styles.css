@@ -83,6 +83,7 @@ h3{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100vw;
     position: sticky;
+    height: fit-content;
 }
 .header-div{
     grid-column: 1 / 5;
