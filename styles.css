@@ -78,12 +78,12 @@ h3{
 
 /* header styling */
 .header{
-    position: fixed;
     background: var(--white);
     padding: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     width: 100vw;
     z-index: 2;
+    top: 10;
 }
 .header-div{
     grid-column: 1 / 5;
@@ -161,9 +161,10 @@ nav li a:hover{
 /* hero section styling */
 .hero-section{
     height: 400px;
-    overflow-y: hodden;
-    margin-top: 50px;
 }
+.hero-main{
+    overflow-x: hidden;
+    margin-top: 50px;
 .details{
     grid-column:  1 / 8;
     margin-right: 20px;
@@ -182,7 +183,7 @@ nav li a:hover{
     display: none;
 }
 #phone{
-    z-index: 1;
+    z-index: -1;
 }
 
 /* about section styling */
