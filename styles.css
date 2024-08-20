@@ -160,7 +160,7 @@ nav li a:hover{
 /* hero section styling */
 .hero-section{
     height: 400px;
-    /* overflow: hidden; */
+    overflow-x: hodden;
 }
 .details{
     grid-column:  1 / 8;
