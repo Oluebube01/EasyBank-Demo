@@ -294,8 +294,7 @@ nav li a{
         margin-top: 40px;
     }
     .btn-hero{
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin: 0;
     }
     #phone{
         display: none;
