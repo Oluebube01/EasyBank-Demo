@@ -342,6 +342,7 @@ nav li a{
     .about-details{
         width: 300px;
         margin: auto;
+        margin-top: 20px;
     }
     .bg-color{
         background-color: var(--white);
