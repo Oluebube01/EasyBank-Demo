@@ -208,7 +208,6 @@ nav li a{
 
 /* blog section styling */
 #blog{
-    padding: 40px;
     background-color: rgba(233, 230, 230, 0.291);
 
 }
@@ -291,7 +290,7 @@ nav li a{
     }
     .hero-section{
         height: 250px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         margin-top: 40px;
     }
     .btn-hero{
@@ -323,7 +322,6 @@ nav li a{
     #blog{
         background-color: rgba(248, 246, 246, 0.121);
         letter-spacing: 1.5px;
-        margin-left: 0;
     }
     #about{
         letter-spacing: 1.5px;
