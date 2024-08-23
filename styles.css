@@ -112,7 +112,8 @@ nav li a{
 }
 .desktopLi:hover{
     color: var(--dark-blue);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.735);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.735);
+    padding-bottom: 5px;
 }
 .side-bar{
     position: absolute;
@@ -187,6 +188,9 @@ nav li a{
     background: var(--very-light-gray);
     padding: 40px;
     margin-left: 40px;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
 }
 .about-list{
     margin-top: 20px;
@@ -211,6 +215,9 @@ nav li a{
     padding: 40px;
     background-color: rgba(233, 230, 230, 0.291);
     margin-left: 40px;
+    align-items: center;
+    justify-items: center;
+    place-items: center;
 }
 #blog h1:hover{
     color: var(--lime-green);
