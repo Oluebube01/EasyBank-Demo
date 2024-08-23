@@ -187,7 +187,7 @@ nav li a{
 #about{
     background: var(--very-light-gray);
     padding: 40px;
-    margin-left: 40px;
+    margin-left: 50px;
     align-items: center;
     justify-items: center;
     place-items: center;
@@ -330,9 +330,11 @@ nav li a{
     #blog{
         background-color: rgba(248, 246, 246, 0.121);
         letter-spacing: 1.5px;
+        margin-left: 0;
     }
     #about{
         letter-spacing: 1.5px;
+        margin-left: 0;
     }
     #blog h1, #blog h3, #blog h5{
         text-align: left;
