@@ -209,7 +209,7 @@ nav li a{
 /* blog section styling */
 #blog{
     background-color: rgba(233, 230, 230, 0.291);
-
+    padding: 40px;
 }
 #blog h1:hover{
     color: var(--lime-green);
